@@ -4,3 +4,7 @@
 
 yarn-debug.log*
 yarn-error.log*
+
+uploads/*
+
+src/database/database.sqlite
