@@ -37,16 +37,6 @@ export default function OrphanageData() {
   async function handleCreateOrphanage() {
     const { latitude, longitude } = params.position;
 
-    console.log({
-      name,
-      about,
-      instructions,
-      opening_hours,
-      open_on_weekends,
-      latitude,
-      longitude,
-    });
-
     const data = new FormData();
 
     data.append('name', name);
